@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav,
+main,
+section,
+footer {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
