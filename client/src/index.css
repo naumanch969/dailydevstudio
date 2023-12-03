@@ -2,10 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    cursor: none;
+}
+
 nav,
 main,
 section,
 footer {
     padding-left: 6rem;
     padding-right: 6rem;
+
+    @media screen and (min-width: 1029px) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    @media screen and (max-width: 1029px) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    @media screen and (max-width: 769px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    @media screen and (max-width: 620px) {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+.gradient-text {
+    background-image: linear-gradient(to bottom, #0A64BC, #062749);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* .hover{
+    background: rgba(175, 175, 175, 0.582);
+    border-radius: 8px;
+    padding: 2px 1rem;
+    width: 100%;
+    transition: all;
+} */
+
+.hovered {
+    background: rgba(175, 175, 175);
+    color: white;
+    @apply rounded-md px-4 py-1 w-fit transition-all;
 }

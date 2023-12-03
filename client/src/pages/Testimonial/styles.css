@@ -1,6 +1,16 @@
 .swiper {
   width: 25rem;
   height: 30rem;
+
+  @media screen and (max-width: 768px) {
+    width: 22.5rem;
+    height: 28rem;
+  }
+  @media screen and (max-width: 620px) {
+    width: 20rem;
+    height: 26rem;
+  }
+  
 }
 
  

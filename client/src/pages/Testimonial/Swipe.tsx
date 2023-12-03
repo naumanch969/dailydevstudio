@@ -89,11 +89,11 @@ export default function Swipe() {
         {
           testimonials.map((testimonial, index) => (
             <SwiperSlide key={index} className='h-full flex flex-col justify-between rounded-xl ' >
-              <div className="flex flex-col gap-4 px-10 pt-10">
+              <div className="flex flex-col gap-4 md:px-10 sm:px-8 px-6 md:pt-10 pt-8 ">
                 <img src={testimonial.image} alt={testimonial.name} className='w-16 h-16 object-cover rounded-md ' />
                 <p className='text-xl text-black ' >{testimonial.text}</p>
               </div>
-              <div className="flex justify-between items-center w-full bg-gray-50 px-10 py-5 ">
+              <div className="flex justify-between items-center w-full bg-gray-50 md:px-10 sm:px-8 px-6 md:py-5 py-4 ">
                 <div className="flex flex-col">
                   <h5 className='text-black' >{testimonial.name}</h5>
                   <span className='text-gray-500 font-light ' >{testimonial.title}</span>
