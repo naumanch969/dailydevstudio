@@ -88,7 +88,7 @@ const Work = () => {
           ))}
         </div>
         <div className="w-full flex justify-center items-center">
-          <HoverButton className='text-primary-blue font-medium text-[18px] ' >Load more projects {'>'}</HoverButton>
+          <HoverButton className='py-2 text-primary-blue font-medium text-[18px] ' >Load more projects {'>'}</HoverButton>
         </div>
 
       </div>

@@ -43,17 +43,3 @@ footer {
     -webkit-background-clip: text;
     background-clip: text;
 }
-
-/* .hover{
-    background: rgba(175, 175, 175, 0.582);
-    border-radius: 8px;
-    padding: 2px 1rem;
-    width: 100%;
-    transition: all;
-} */
-
-.hovered {
-    background: rgba(175, 175, 175);
-    color: white;
-    @apply rounded-md px-4 py-1 w-fit transition-all;
-}

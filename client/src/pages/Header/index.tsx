@@ -21,7 +21,7 @@ const Header = (props: Props) => {
           <h1 className='text-center md:text-8xl sm:text-7xl text-5xl ' > <span className='gradient-text ' >Elevate Your</span> <br /> Digital Presence </h1>
           <p className='text-center text-xl text-gray-500 lg:px-32 ' >High-end website and app development for startups and companies where attention to detail and passion dedication matter.</p>
         </div>
-        <HoverButton className='text-primary-blue font-medium text-[18px]  ' >Start a project request {'>'}</HoverButton>
+        <HoverButton className='py-2 text-primary-blue font-medium text-[18px]  ' >Start a project request {'>'}</HoverButton>
       </motion.div>
 
 

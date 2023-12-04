@@ -1,11 +1,16 @@
 import React from 'react'
+import { useStateContext } from '../context/ContextProvider'
 
 const HoverButton = ({ className, onClick, children }: { className: string, onClick?: () => void, children: React.ReactNode }) => {
+
+    const { setIsButtonHover } = useStateContext()
+
     return (
         <button
-            onMouseEnter={(e) => e.currentTarget.classList.add('hovered')}
-            onMouseLeave={(e) => e.currentTarget.classList.remove('hovered')}
-            className={`${className} z-[2] transition-all `}
+            onMouseEnter={(e) => { e.currentTarget.classList.add('hovered'); setIsButtonHover(true) }}
+            onMouseLeave={(e) => { e.currentTarget.classList.remove('hovered'); setIsButtonHover(false) }}
+            style={{ background: '' }}
+            className={`${className} hover:bg-hover-gray hover:text-white hover:px-4 hover:rounded-md hover:w-fit hover:z-[2] hover:transition-all `}
             onClick={onClick}
         >
             {children}

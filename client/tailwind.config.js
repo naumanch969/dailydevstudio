@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary-blue": "#0A64BC"
+        "primary-blue": "#0A64BC",
+        "hover-gray": "rgba(175, 175, 175)",
       }
     },
   },
