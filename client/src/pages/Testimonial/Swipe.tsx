@@ -8,7 +8,7 @@ import './styles.css';
 
 // import required modules
 import { EffectCards } from 'swiper/modules';
-import { person1, person2, person3, person4, person5, person6, person7, person8, person9 } from '../../assets';
+import { person1, person2, person3, person4, } from '../../assets';
 
 export default function Swipe() {
 
@@ -41,41 +41,7 @@ export default function Swipe() {
       company: 'Starlight',
       title: 'Product Manager'
     },
-    {
-      name: 'Tiffany Chang',
-      image: person5,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua.',
-      company: 'Starlight',
-      title: 'Product Manager'
-    },
-    {
-      name: 'Tiffany Chang',
-      image: person6,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua.',
-      company: 'Starlight',
-      title: 'Product Manager'
-    },
-    {
-      name: 'Tiffany Chang',
-      image: person7,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua.',
-      company: 'Starlight',
-      title: 'Product Manager'
-    },
-    {
-      name: 'Tiffany Chang',
-      image: person8,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua.',
-      company: 'Starlight',
-      title: 'Product Manager'
-    },
-    {
-      name: 'Tiffany Chang',
-      image: person9,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna aliqua.',
-      company: 'Starlight',
-      title: 'Product Manager'
-    },
+
   ]
 
   return (
