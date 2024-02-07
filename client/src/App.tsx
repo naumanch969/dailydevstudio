@@ -26,7 +26,7 @@ const App = () => {
 
         (cursorOutlineRef.current as HTMLDivElement).animate(
           [{ left: `${posX}px`, top: `${posY}px` }],
-          { duration: 1000, fill: "forwards" }
+          { duration: 100, fill: "forwards" }
         );
       }
     });
